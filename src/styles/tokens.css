@@ -1,0 +1,42 @@
+:root {
+  /* ── Color ─────────────────────────────────────────── */
+  /* Base: negro verdoso frío, no un negro plano */
+  --bg: #0a0d0c;
+  --bg-alt: #0e1211;
+  --surface: #151a18;
+  --surface-2: #1c2321;
+  --border: rgba(237, 239, 235, 0.09);
+  --border-strong: rgba(237, 239, 235, 0.18);
+
+  /* Texto */
+  --text: #edefea;
+  --text-dim: #a6b0aa;
+  --text-faint: #6d766f;
+
+  /* Acento — verde salvia apagado, deliberadamente NO dorado */
+  --accent: #93ab9b;
+  --accent-strong: #b7c9bd;
+  --accent-soft: rgba(147, 171, 155, 0.12);
+  --accent-line: rgba(147, 171, 155, 0.35);
+
+  /* Petróleo profundo, usado en degradés / fondos de sección */
+  --petrol: #0e2b28;
+  --petrol-2: #123330;
+
+  /* ── Tipografía ────────────────────────────────────── */
+  --font-display: "Fraunces", "Iowan Old Style", serif;
+  --font-body: "Manrope", "Helvetica Neue", Arial, sans-serif;
+
+  /* ── Espaciado ─────────────────────────────────────── */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: 4rem;
+  --space-6: 6.5rem;
+
+  --container: 1240px;
+  --radius: 2px;
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
