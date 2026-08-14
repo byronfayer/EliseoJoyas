@@ -34,9 +34,9 @@
 .hero-inner {
   position: relative;
   z-index: 1;
-  display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   gap: var(--space-5);
   padding-top: var(--space-5);
   padding-bottom: var(--space-6);
@@ -46,10 +46,10 @@
   max-width: 560px;
 }
 
-.hero-title {
-  margin-top: var(--space-2);
-  font-size: clamp(2.9rem, 6.4vw, 5.2rem);
-  color: var(--text);
+.hero-title-img {
+  margin-top: var(--space-3);
+  width: clamp(260px, 40vw, 460px);
+  height: auto;
 }
 
 .hero-tagline {
@@ -75,75 +75,6 @@
   margin-top: var(--space-4);
 }
 
-/* Visual: anillo de línea, boceto luminoso */
-.hero-visual {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 420px;
-}
-
-.hero-ring {
-  width: 100%;
-  max-width: 420px;
-  filter: drop-shadow(0 0 40px rgba(147, 171, 155, 0.12));
-}
-
-.hero-ring-svg {
-  width: 100%;
-  height: auto;
-}
-
-.hr-band {
-  fill: none;
-  stroke: var(--text-dim);
-  stroke-width: 1.1;
-  opacity: 0.8;
-}
-
-.hr-prong {
-  fill: none;
-  stroke: var(--text-dim);
-  stroke-width: 1.1;
-  opacity: 0.8;
-}
-
-.hr-stone {
-  fill: var(--bg);
-  stroke: var(--accent);
-  stroke-width: 1.4;
-}
-
-.hr-stone-facet {
-  fill: none;
-  stroke: var(--accent);
-  stroke-width: 0.6;
-  opacity: 0.55;
-  transform: scale(0.55);
-  transform-origin: 200px 122px;
-}
-
-.hero-visual-frame {
-  display: flex;
-  align-items: center;
-  gap: var(--space-2);
-  margin-top: var(--space-4);
-  padding-top: var(--space-2);
-  border-top: 1px solid var(--border);
-}
-
-.hero-hallmark .hallmark-mark {
-  stroke: var(--text-dim);
-}
-
-.hero-visual-caption {
-  font-size: 0.72rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--text-faint);
-}
 
 .hero-scroll {
   position: absolute;
@@ -172,20 +103,15 @@
 
 @media (max-width: 940px) {
   .hero-inner {
-    grid-template-columns: 1fr;
-    text-align: left;
     padding-top: var(--space-4);
-  }
-  .hero-visual {
-    min-height: 300px;
-    order: -1;
-  }
-  .hero-ring {
-    max-width: 260px;
   }
 }
 
 @media (max-width: 480px) {
+  .hero-title-img {
+    width: 100%;
+    max-width: none;
+  }
   .hero {
     padding-top: 68px;
   }

@@ -12,16 +12,16 @@ export function buildWhatsAppLink(message) {
 
 export function whatsappForPiece(pieceName) {
   return buildWhatsAppLink(
-    `Hola! Vi "${pieceName}" en el catálogo de Eliseo Joyas y quiero consultar por esta pieza.`
+    `Hola! Vi "${pieceName}" en el catálogo de Eliseo y quiero consultar por esta pieza.`
   );
 }
 
 export function whatsappForCustom() {
   return buildWhatsAppLink(
-    "Hola! Quiero consultar por una pieza personalizada de Eliseo Joyas."
+    "Hola! Quiero consultar por una pieza personalizada de Eliseo."
   );
 }
 
 export function whatsappGeneral() {
-  return buildWhatsAppLink("Hola! Quiero hacer una consulta a Eliseo Joyas.");
+  return buildWhatsAppLink("Hola! Quiero hacer una consulta a Eliseo.");
 }

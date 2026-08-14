@@ -4,7 +4,7 @@
 // ─────────────────────────────────────────────────────────
 
 export const config = {
-  brand: "Eliseo Joyas",
+  brand: "Eliseo",
   tagline: "Joyas creadas para vos.",
 
   // Número de WhatsApp en formato internacional, SIN espacios, SIN "+".

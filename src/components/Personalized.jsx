@@ -25,7 +25,7 @@ export default function Personalized() {
           <span className="eyebrow">Piezas personalizadas</span>
           <h2>Diseñada para una sola persona: vos.</h2>
           <p>
-            En Eliseo Joyas no partimos de un molde. Cada encargo se piensa
+            En Eliseo no partimos de un molde. Cada encargo se piensa
             desde cero según lo que quieras contar: una fecha grabada por
             dentro, una piedra elegida, una forma que no existe en ningún
             otro lado. Contanos qué tenés en mente y lo construimos juntos.
