@@ -14,7 +14,7 @@ export const pieces = [
     typeLabel: "Anillo",
     description:
       "Anillo de línea angosta con textura martillada a mano. Pensado para combinarse en capas o llevarse solo.",
-image: "/images/Anillo1.jpg",  },
+image: "/images/Anillos1.jpg",  },
   {
     id: "p2",
     name: "Umbral",
@@ -22,7 +22,7 @@ image: "/images/Anillo1.jpg",  },
     typeLabel: "Collar",
     description:
       "Cadena fina con dije geométrico suspendido en ángulo. Un punto de silencio sobre la piel.",
-    image: "/images/Anillo2.jpg",
+    image: "/images/anillos2.jpg",
   },
   {
     id: "p3",
@@ -31,7 +31,7 @@ image: "/images/Anillo1.jpg",  },
     typeLabel: "Aros",
     description:
       "Par de aros asimétricos en distintas alturas. Una pieza para quien no busca simetría, sino carácter.",
-    image: "/images/Anillo3.jpg",
+    image: "/images/Anillos3.jpg",
   },
   {
     id: "p4",
