@@ -5,9 +5,9 @@
 // real, poné la ruta en "image" (ej: "/images/anillo-01.jpg").
 // "type" acepta: "anillo" | "collar" | "aro" | "pulsera" | "otro"
 // ─────────────────────────────────────────────────────────
-import anillo1 from "../assets/anillos1.JPG"
-import anillo2 from "../assets/anillos2.JPG"
-import anillo3 from "../assets/anillos3.JPG"
+import anillo1 from "../assets/images/anillos1.JPG"
+import anillo2 from "../assets/images/anillos2.JPG"
+import anillo3 from "../assets/images/anillos3.JPG"
 
 export const pieces = [
   {
