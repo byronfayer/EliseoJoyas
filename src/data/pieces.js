@@ -5,9 +5,6 @@
 // real, poné la ruta en "image" (ej: "/images/anillo-01.jpg").
 // "type" acepta: "anillo" | "collar" | "aro" | "pulsera" | "otro"
 // ─────────────────────────────────────────────────────────
-import anillo1 from "../assets/Anillo1.jpg"
-import anillo2 from "../assets/Anillos2.jpg"
-import anillo3 from "../assets/Anillos3.jpg"
 
 export const pieces = [
   {
@@ -17,8 +14,7 @@ export const pieces = [
     typeLabel: "Anillo",
     description:
       "Anillo de línea angosta con textura martillada a mano. Pensado para combinarse en capas o llevarse solo.",
-    image: anillo1,
-  },
+image: "/images/Anillo1.jpg",  },
   {
     id: "p2",
     name: "Umbral",
@@ -26,7 +22,7 @@ export const pieces = [
     typeLabel: "Collar",
     description:
       "Cadena fina con dije geométrico suspendido en ángulo. Un punto de silencio sobre la piel.",
-    image: anillo2,
+    image: "/images/Anillo2.jpg",
   },
   {
     id: "p3",
@@ -35,7 +31,7 @@ export const pieces = [
     typeLabel: "Aros",
     description:
       "Par de aros asimétricos en distintas alturas. Una pieza para quien no busca simetría, sino carácter.",
-    image: anillo3,
+    image: "/images/Anillo3.jpg",
   },
   {
     id: "p4",

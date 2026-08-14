@@ -1,5 +1,5 @@
-import wordmark from "../assets/logo-wordmark.png";
 import "./Hero.css";
+// el logo ahora vive en public/images, se referencia como ruta de texto
 
 export default function Hero() {
   return (
@@ -12,7 +12,7 @@ export default function Hero() {
       <div className="container hero-inner">
         <div className="hero-copy">
           <span className="eyebrow">Joyería personalizada · Córdoba</span>
-          <img src={wordmark} alt="Eliseo" className="hero-title-img" />
+          <img src="/images/logo-wordmark.png" alt="Eliseo" className="hero-title-img" />
           <p className="hero-tagline">Joyas creadas para vos.</p>
           <p className="hero-sub">
             Cada pieza se piensa, se dibuja y se forja a partir de un pedido

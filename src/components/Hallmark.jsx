@@ -1,10 +1,10 @@
-import logo from "../assets/logo-mark.png";
+
 
 // Logo de la marca (proporcionado por el cliente): la "E" coronada.
 export default function Hallmark({ size = 40, className = "" }) {
   return (
     <img
-      src={logo}
+      src="/images/logo-mark.png"
       alt="Eliseo"
       width={size}
       height={size}
